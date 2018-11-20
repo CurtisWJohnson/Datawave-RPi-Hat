@@ -6,6 +6,7 @@ Requirements
 - eepromutils (https://github.com/raspberrypi/hats.git)
 
 From within Raspberry Pi
+Compile the .eep file.
 ```Code
 sudo ./eepmake Datawave-rpi.txt Datawave-rpi.eep Datawave-rpi.dtb
 ```
