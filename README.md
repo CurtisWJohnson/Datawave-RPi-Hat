@@ -5,7 +5,13 @@ Requirements
 - Raspberry Pi
 - eepromutils (https://github.com/raspberrypi/hats.git)
 
-From within Raspberry Pi
+From the command line on the Raspberry Pi
+
+Download appropriate files
+```Code
+git clone https://github.com/CurtisWJohnson/Datawave-RPi-Hat.git
+cd Datawave-RPi-Hat
+```
 
 Compile the .eep file.
 ```Code
