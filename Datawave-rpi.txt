@@ -1,0 +1,20 @@
+product_uuid 
+product_id 0x1200
+product_ver 0x000a
+vendor "Datawave"
+product "RPI Nimbelink Skywire"
+gpio_drive 0
+gpio_slew 0
+gpio_hysteresis 0
+back_power 1
+setgpio  4      INPUT     DEFAULT
+setgpio  7      INPUT     DEFAULT
+setgpio  12      INPUT     DEFAULT
+setgpio  14      ALT0     DEFAULT
+setgpio  15      ALT0     DEFAULT
+setgpio  16      ALT3     DEFAULT
+setgpio  17      ALT3     DEFAULT
+setgpio  18      INPUT     DEFAULT
+setgpio  24      INPUT     DEFAULT
+setgpio  25      OUTPUT     DOWN
+setgpio  27      OUTPUT     DOWN
