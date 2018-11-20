@@ -11,7 +11,7 @@ Compile the .eep file.
 ```Code
 sudo ./eepmake Datawave-rpi.txt Datawave-rpi.eep Datawave-rpi.dtb
 ```
-**Do the following while holding pin #26 on the Pi low**
+Flash the .eep file to the EEPROM on the Pi. **Needs to be done while holding pin 26 on the Pi low**
 ```Code
 sudo ./eepflash.sh -w -f=Datawave-rpi.eep -t=24c32
 ```
